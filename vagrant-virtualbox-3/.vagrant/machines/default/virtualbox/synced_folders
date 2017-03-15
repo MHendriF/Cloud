@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www":{"guestpath":"/var/www","hostpath":"/home/blast_off/Documents/Cloud/vagrant-virtualbox-3/src/codeigniter","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/blast_off/Documents/Cloud/vagrant-virtualbox-3","disabled":false,"__vagrantfile":true}}}
