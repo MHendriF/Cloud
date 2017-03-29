@@ -1,3 +1,3 @@
 Buat vagrant virtualbox dan lakukan provisioning
-    - bind9
-    - squid-proxy
+  * bind9
+  * squid-proxy
