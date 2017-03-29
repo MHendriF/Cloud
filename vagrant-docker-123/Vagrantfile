@@ -14,11 +14,12 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   #config.vm.box = "base"
 #config.vm.network "forwarded_port", guest: 3306, host: 3306
-
-  config.vm.define "mysql" do |v|
+  
+  config.vm.define "mysql-kita" do |v|
+    pwd = File.dirname(__FILE__)
     v.vm.provider "docker" do |d|
       d.image = "mysql"
-      #d.volumes = [pwd+"/db/:/var/lib/mysql/"]
+      d.volumes = [pwd+"/db/:/var/lib/mysql/"]
       d.env = {
         :MYSQL_ROOT_PASSWORD => "cloud!",
         :MYSQL_DATABASE     => "db",
