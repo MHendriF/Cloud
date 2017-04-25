@@ -1,0 +1,1 @@
+Buatlah script php untuk melakukan sorting menggunakan algoritma bubblesort. Input berupa kumpulan angka dan di jalankan melalui form upload, output adalah kumpulan angka yang telah tersorting. Buatlah load balancing dengan 1 load balancer(nginx) dan 2 worker(hhvm). Buatlah Vagrantfile untuk menyelesaikan kasus tersebut(boleh virtualbox/docker).
