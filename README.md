@@ -1,5 +1,5 @@
 # Tugas-Cloud
-Provisioning dan managing virtual machine pada (VirtualBox)[https://www.virtualbox.org/] dan Docker
+Provisioning dan managing virtual machine menggunakan [Vagrant](https://www.lukmanlab.com/apa-itu-vagrant) pada [VirtualBox](https://www.virtualbox.org) dan [Docker](https://www.dicoding.com/blog/apa-itu-docker)
 
 Oleh:
 
