@@ -1,5 +1,5 @@
 # Tugas-Cloud
-Virtual Mesin menggunakan virtualbox
+Provisioning dan managing virtual machine pada (VirtualBox)[https://www.virtualbox.org/] dan Docker
 
 Oleh:
 
